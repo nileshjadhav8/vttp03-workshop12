@@ -16,6 +16,8 @@
             <input type = "input" id="number" name = "number">
             <input type="submit" value="Generate">
         </form>
+        <hr>
+        <p th:if="${errorMessage != null}"  style="color: red;">[[${errorMessage}]]</p> 
     </div>
 </body>
 </html>
